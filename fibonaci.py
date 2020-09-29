@@ -1,9 +1,9 @@
 # Fibonacci series asks users for input
 
 first = 0
-second = 1
+second: int = 1
 nextNum = first + second
-fib = input("How many numbers do you want? ")
+fib = int(input("How many numbers do you want? "))
 
 for x in range(int(fib)):
     nextNum = first + second
@@ -11,4 +11,4 @@ for x in range(int(fib)):
     second = nextNum
     print(nextNum)
 
-print("{f} fibinacci numbers have been printed. ".format(f=fib))
+print("{f} fibonacci numbers have been printed. ".format(f=fib))

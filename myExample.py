@@ -4,7 +4,6 @@
 mod = 7 % 4
 print(mod)
 
-
 print("--------------------------------")
 # ** = power of
 
@@ -12,12 +11,12 @@ power = 10 ** 5
 print(power)
 
 print("----------------------------------")
-# () = order of opperations.
+# () = order of operations.
 
 tot = 2 + 10 * 5 + 3
 print(tot)
 
-# but when you put paranthasies this happens... P.S () = paranthasies
+# but when you put parentheses this happens... P.S () = parentheses.
 
 totp = (2 + 10) * (5 + 3)
-print (totp)
+print(totp)
